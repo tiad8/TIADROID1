@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<!-- ================================================================== -->
+    <!-- give WRITE_EXTERNAL_STORAGE ( Gallery3D and Most games ) access to grap
+hics
+        - Firerat 2010-05-03 -->
+    <permission name="android.permission.WRITE_EXTERNAL_STORAGE" >
+        <group gid="sdcard_rw" />
+        <group gid="graphics" />
+    </permission>
+</permissions>
